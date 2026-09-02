@@ -67,7 +67,7 @@ The dataset is highly imbalanced, so SMOTE was used to improve minority-class le
 
 ## Confusion Matrix
 
-(confusion-matrix.png)
+![Confusion Matrix](confusion-matrix.png)
 
 ## Streamlit App
 
@@ -75,11 +75,11 @@ The project includes a Streamlit interface where users can select accident condi
 
 ### Input Form
 
-(app-input-form.png)
+![Streamlit Input Form](app-input-form.png)
 
 ### Prediction Result
 
-(prediction-result.png)
+![Prediction Result](prediction-result.png)
 
 Sample prediction output is available in [`sample-prediction-output.json`](sample-prediction-output.json).
 

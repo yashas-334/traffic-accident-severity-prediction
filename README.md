@@ -53,14 +53,6 @@ Sample dataset preview is available in [`sample-dataset-preview.csv`](sample-dat
 
 Detailed workflow is available in [`model-workflow.md`](model-workflow.md).
 
-## Notebook
-
-The full model development notebook:
-
-[Accident_Prediction.ipynb](Accident_Prediction.ipynb)
-
-It includes data preprocessing, feature selection, SMOTE balancing, XGBoost training, model evaluation, confusion matrix visualization, feature importance analysis, and model export using Joblib.
-
 ## Evaluation Summary
 
 The model was evaluated on 60,103 test records.
@@ -75,10 +67,19 @@ The dataset is highly imbalanced, so SMOTE was used to improve minority-class le
 
 ## Confusion Matrix
 
+![Confusion Matrix](assets/confusion-matrix.png)
 
 ## Streamlit App
 
 The project includes a Streamlit interface where users can select accident conditions such as weather, road type, lighting, speed limit, and number of vehicles to predict accident severity.
+
+### Input Form
+
+![Streamlit Input Form](assets/app-input-form.png)
+
+### Prediction Result
+
+![Prediction Result](assets/prediction-result.png)
 
 Sample prediction output is available in [`sample-prediction-output.json`](sample-prediction-output.json).
 

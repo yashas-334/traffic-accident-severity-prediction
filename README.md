@@ -53,6 +53,14 @@ Sample dataset preview is available in [`sample-dataset-preview.csv`](sample-dat
 
 Detailed workflow is available in [`model-workflow.md`](model-workflow.md).
 
+## Notebook
+
+The full model development notebook:
+
+[Accident_Prediction.ipynb](Accident_Prediction.ipynb)
+
+It includes data preprocessing, feature selection, SMOTE balancing, XGBoost training, model evaluation, confusion matrix visualization, feature importance analysis, and model export using Joblib.
+
 ## Evaluation Summary
 
 The model was evaluated on 60,103 test records.

@@ -67,7 +67,6 @@ The dataset is highly imbalanced, so SMOTE was used to improve minority-class le
 
 ## Confusion Matrix
 
-![Confusion Matrix](assets/confusion-matrix.png)
 
 ## Streamlit App
 

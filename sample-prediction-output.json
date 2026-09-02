@@ -1,0 +1,22 @@
+{
+  "input": {
+    "Weather_Conditions": "Fine no high winds",
+    "Road_Type": "Single carriageway",
+    "Light_Conditions": "Daylight",
+    "Speed_limit": 30,
+    "Road_Surface_Conditions": "Dry",
+    "Urban_or_Rural_Area": "Urban",
+    "Number_of_Vehicles": 2,
+    "Junction_Detail": "T or staggered junction"
+  },
+  "prediction": {
+    "severity": "Slight",
+    "confidence": "72%",
+    "class_probabilities": {
+      "Fatal": "4.8%",
+      "Serious": "23.2%",
+      "Slight": "72.0%"
+    },
+    "safety_advisory": "Slight risk predicted. Standard safe-driving practices are recommended."
+  }
+}

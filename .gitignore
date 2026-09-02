@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large/private artifacts
+*.pkl
+*.joblib
+*.csv
+!sample-dataset-preview.csv
+
+# Local files
+*.log
+.DS_Store
+Thumbs.db
